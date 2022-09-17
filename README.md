@@ -12,7 +12,7 @@ Your users should be able to:
 - Generate a new piece of advice by clicking the dice icon
 
 ### Information 
-- this is a solution to the [Advice Generator App](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh).
+- this is a solution to the [Advice Generator App](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
 - by [Frontend Mentor](https://www.frontendmentor.io)
 
 ## Links
