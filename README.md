@@ -11,6 +11,10 @@ Your users should be able to:
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
 
+### Information 
+- this is a solution to the [Advice Generator App](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh).
+- by [Frontend Mentor](https://www.frontendmentor.io)
+
 ## Links
 
 - [Solution URL ](https://github.com/sohel08/advice-generator-app)
