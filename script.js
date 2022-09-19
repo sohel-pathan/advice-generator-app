@@ -1,12 +1,10 @@
+// decalre and assign variables
 const adviceId = document.querySelector("#quote__id")
 const adviceElm = document.querySelector("#advice")
 const dice = document.querySelector(".dice")
 
-dice.addEventListener("click", () => {
-    getAdvice()
-})
-
-function getAdvice(){
+// create getAdvice() function to get advice and advice Id from Api
+const getAdvice = () => {
     fetch("https://api.adviceslip.com/advice")
     .then(response => response.json())
     .then((data) => data.slip)
@@ -18,3 +16,6 @@ function getAdvice(){
         alert(`Error ${error}`);
     });
 }
+
+// run getAdvice() function when user click on dice button
+dice.addEventListener("click", () => getAdvice() )
