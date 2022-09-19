@@ -82,8 +82,7 @@ img {
   place-items: center center;
 }
 
-.dice:hover,
-.dice:focus {
+.dice:hover {
   transition: 0.25s;
   box-shadow: 0 0 25px var(--NeonGreen);
 }
@@ -93,6 +92,7 @@ img {
   padding-top: 60px;
   color: var(--LightCyan);
   font-size: 1.6rem;
+  text-align: center;
 }
 
 .attribution a {
