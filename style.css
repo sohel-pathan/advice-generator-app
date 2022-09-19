@@ -1,3 +1,4 @@
+/* CSS reset */
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +10,7 @@ html {
   font-size: 62.5%;
 }
 
+/* CSS variables */
 :root {
   --LightCyan: hsl(193, 38%, 86%);
   --NeonGreen: hsl(150, 100%, 66%);
@@ -17,6 +19,7 @@ html {
   --DarkBlue: hsl(218, 23%, 16%);
 }
 
+/* Body */
 body {
   min-height: 100vh;
   display: grid;
@@ -26,10 +29,12 @@ body {
   padding-inline: 15px;
 }
 
+/* make image resposive */
 img {
   width: 100%;
 }
 
+/* advice container */
 .advice__container {
   max-width: 500px;
   text-align: center;
@@ -39,6 +44,7 @@ img {
   position: relative;
 }
 
+/* advice id   */
 .advice__id {
   font-size: 1.2rem;
   letter-spacing: 2px;
@@ -47,6 +53,7 @@ img {
   padding-bottom: 20px;
 }
 
+/* advice text */
 .advice {
   color: var(--LightCyan);
   font-size: 2.8rem;
@@ -56,10 +63,12 @@ img {
   padding-bottom: 30px;
 }
 
+/* divider */
 .divider {
   padding-bottom: 30px;
 }
 
+/* dice image wrapper button  */
 .dice {
   background-color: var(--NeonGreen);
   width: 55px;
@@ -75,6 +84,7 @@ img {
   cursor: pointer;
 }
 
+/* dice image */
 .dice__img {
   width: 41%;
   height: 41%;
@@ -82,11 +92,13 @@ img {
   place-items: center center;
 }
 
+/* dice image wrapper hover */
 .dice:hover {
   transition: 0.25s;
   box-shadow: 0 0 25px var(--NeonGreen);
 }
 
+/* attribution */
 .attribution {
   margin-top: auto;
   padding-top: 60px;
