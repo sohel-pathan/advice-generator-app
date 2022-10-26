@@ -18,4 +18,4 @@ const getAdvice = () => {
 }
 
 // run getAdvice() function when user click on dice button
-dice.addEventListener("click", () => getAdvice() )
+dice.addEventListener("click", getAdvice)
